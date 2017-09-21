@@ -13,13 +13,9 @@ h1 {
 /* HEADER STYLES */
 .header {
   background-color: #aaa;
-  height: 300px;
-  width: 100%;
+  height:300px;
   position: relative;
-}
-.header-logo {
-  bottom: 50px;
-  position: absolute;
+  width: 100%;
 }
 .header-logo:hover,
 .header-logo:active {
@@ -42,6 +38,13 @@ h1 {
 }
 .header-nav > li:first-child a:hover {
   color: #000;
+}
+.header-logo {
+  background-color: #000;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 .header-nav a {
   color: #000;
